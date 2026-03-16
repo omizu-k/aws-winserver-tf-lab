@@ -1,0 +1,18 @@
+# Terraform state（インフラの現在状態 + AWSリソースIDや秘密情報を含む）
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Terraformキャッシュ（プロバイダーバイナリなど再生成可能）
+.terraform/
+
+# 生成された秘密鍵（EC2 Windowsパスワード復号用）
+*.pem
+
+# 環境ごとの変数ファイル（APIキーやパスワードを含む可能性）
+*.tfvars
+*.tfvars.json
+
+# Terraformクラッシュログ
+crash.log
+crash.*.log
