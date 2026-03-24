@@ -1,6 +1,6 @@
 # Windows Practice - AWS Infrastructure (Terraform)
 
-Windows Server 2025 をの構築練習をする目的で作成しました。
+Windows Server 2025 の構築練習
 
 ---
 
